@@ -34,27 +34,27 @@ from abc import ABC
 
 class Shape(ABC): 
 
-def calculate_area(self): 
+   def calculate_area(self): 
 
-Pass 
+      pass 
 
 class Rectangle(Shape): 
 
-length = 5 
+   length = 5 
 
-breadth =3
+   breadth =3
 
-def calculate_area(self): 
+   def calculate_area(self): 
 
-print("Area of a rectangle:",self.length * self.breadth) class 
+      print("Area of a rectangle:",self.length * self.breadth) class 
 
 Circle(Shape): 
 
-radius = 4 
+   radius = 4 
 
-def calculate_area(self): 
+   def calculate_area(self): 
 
-print("Area of a circle:",3.14 * self.radius * self.radius) 
+      print("Area of a circle:",3.14 * self.radius * self.radius) 
 
 a=Rectangle() 
 
